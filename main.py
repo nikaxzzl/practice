@@ -17,6 +17,4 @@ def main():
         list_tasks()
     else:
         print(f"Unknown command: {cmd}")
-
-if __name__ == "__main__":
-    main()
+        
