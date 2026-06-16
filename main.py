@@ -1,6 +1,5 @@
-# main.py
 import sys
-from todo.commands import add_task
+from todo.commands import add_task, list_tasks
 
 def main():
     if len(sys.argv) < 2:
