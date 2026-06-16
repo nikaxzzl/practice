@@ -5,7 +5,9 @@ def main():
     if len(sys.argv) < 2:
         print("Usage: python main.py <command> [args]")
         return
+
     cmd = sys.argv[1]
+
     if cmd == "add":
         if len(sys.argv) < 3:
             print("Need title: python main.py add 'купить хлеб'")
